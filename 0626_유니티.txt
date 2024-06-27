@@ -1,0 +1,77 @@
+1. Scene 이동과 UI다루기
+    StartScene -> PlayScene -> EndScene
+    빌드배포
+
+프로젝트-01파일에서 playScene 복제해서 startScene으로 만듦
+	스테이지 통과하면 넘어가니까 그거 구현
+스타트신 더블클릭(StartScene을 사용하겠다.)
+fps컨트롤러, container 지움
+메인레벨매시더블클릭 구도잡고 메인카메라 누름
+gameobject - 어라인위드뷰선택하면 씬이랑 게임화면 같아짐
+Game씬에서 freeAspect 보면 pc게임이면 fullHD로 선택
+
+<UI 만들기>
+공유폴더 - BookAsset = sound는 soud에 text는 이미지에 넣음
+**Textures1된거 Textures_UI로 수정
+하이라키에서 우클릭 - ui - canvers
+**자동으로 Eventsystem(기능: 마우스클릭이나 손가락 자동으로 반응함)생김
+Canvas_UI로 이름변경 - 우클릭 - UI - Panel클릭 후 Title로 이름변경
+title_rect Transform에서 top center로 변경 후 w650 h300변경
+03 - texture_UI - menumainTitle_TextureType(sprite(2D and UI), 모니터아이콘 누르고 체크 후 Apply)
+Title_Image-source image(menumainTitle 넣음, color 투명도 255로 변경)
+
+<버튼 만들기>
+Title우클릭-UI-Regacy-Button만들고 위치 조정
+03-textureUI-menu_palyBtn_sprite2d3d, - playbtn_immage-sourceimage에 넣고 imagetype을 tiled(글자가 반복된다는뜻)로 변경 후 씬화면에서 5번째 네모모양 누르고 크기조절
+**play했을 때 누르는 느낌이 나야함
+
+PlayBtn 복제하고 QuitBtn으로 이름변경
+PlatBtn 만들었을 때처럼 똑같이 이미지 넣고 만듦
+**play했을 때 누르는 느낌이 나야함
+
+<버튼 누르면 씬 변경>
+메뉴 file - build setting - startScene, PlayScene순서로 올리고 닫음
+하이라키에서 UIManager빈거 생성하고 스크립트도똑같은 이름으로 생성해서 붙임
+
+<---스크립트---
+(using UnityEngine.SceneManagement;)
+
+start update 다 지우고 새로운 함수 만듦>
+
+Playbtn_ button-Onclick()에서 +누르고 object에 UIMaanager를 넣고 nofunction대신 UIManager-PlayGame선택해줌
+**play 누르면 게임화면으로 넘어가야됨
+
+<-----스크립트---->
+
+QuitBtn_Button아래 onclick+누르고 UIManager넣음 nofuction말고 UIManager.QuitGame넣음
+**Quit 누르면 게임화면종료
+
+file - 빌드세팅 - 빌드앤런 - 폴더Build만들고 그폴더에 저장
+
+exe에 있는것만 배포하면됨
+
+
+
+2. 재장전 애니메이션
+<총알개수세기>
+fireCtrl 스크립트에서 bulletCount변수 선언 - 총알발사함수에 개수세는 코드 만듦
+
+
+3. 총기 교체
+    숫자키 누를 때 총기 교체 + 애니메이션
+공유폴더_모던웨폰패키지를 에셋에 넣은다음 모델에 넣기
+04-modern wwapon pack - ak47-fbx-ak47을 spas13에 넣음 그리고 위치 똑같이 해둠
+spas12_skinnedmash어쩌고 체크해제
+
+ak47아래있는 3개 잡고 meshranderer체크해제
+
+04-modern wwapon pack - m4a1-fbx-m4a1을 spas13에 넣음 위치도 맞춰주고 그 아래 3개 다 메시랜더러 체크해제
+
+SPA12만 스키니매시체크함
+
+스크립트생성(WeaponChange)하고 FPS컨트롤러에 넣음
+
+fps컨트롤러_weapon스크립트에서 ak47이랑 아래 element 3개로 만듦
+
+
+
