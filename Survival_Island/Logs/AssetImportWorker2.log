@@ -1,0 +1,978 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.33f1 (b2c853adf198) revision 11716691'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32684 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/YONSAI/Documents/Unity Projects/Survival_Island
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50114
+Successfully changed project path to: C:/Users/YONSAI/Documents/Unity Projects/Survival_Island
+C:/Users/YONSAI/Documents/Unity Projects/Survival_Island
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27204] Host "[IP] 192.168.41.241 [Port] 0 [Flags] 2 [Guid] 3971637601 [EditorId] 3971637601 [Version] 1048832 [Id] WindowsEditor(7,401-27) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27204] Host "[IP] 192.168.41.241 [Port] 0 [Flags] 2 [Guid] 3971637601 [EditorId] 3971637601 [Version] 1048832 [Id] WindowsEditor(7,401-27) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 84.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.33f1 (b2c853adf198)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/YONSAI/Documents/Unity Projects/Survival_Island/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1b84)
+    Vendor:   NVIDIA
+    VRAM:     2979 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.011445 seconds.
+- Loaded All Assemblies, in  0.324 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 186 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.472 seconds
+Domain Reload Profiling: 796ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (424ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (279ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.518 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.499 seconds
+Domain Reload Profiling: 1015ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (500ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (372ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Lighted Outline': fallback shader 'Toon/Lighted' not found
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (147.0 KB). Loaded Objects now: 3705.
+Memory consumption went from 143.2 MB to 143.0 MB.
+Total: 2.665600 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.211900 ms MarkObjects: 2.075100 ms  DeleteObjects: 0.129800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32345.630544 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/FBX/Materials
+  artifactKey: Guid(604a640493bc40d41a12ea41c80c019f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/FBX/Materials using Guid(604a640493bc40d41a12ea41c80c019f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93f714cdecb67363f06f7f3df340bda9') in 0.002072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001824 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX/Materials/Front_Lens.mat
+  artifactKey: Guid(880fbc72e789ad547bcec9edea3aaa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX/Materials/Front_Lens.mat using Guid(880fbc72e789ad547bcec9edea3aaa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ed19c7b984fd1e83cfee996f2dbbb4fb') in 0.086376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006141 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Magazine Diffuse.tga
+  artifactKey: Guid(b4995d0606532504c8ba322aa63701eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Magazine Diffuse.tga using Guid(b4995d0606532504c8ba322aa63701eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7f003461707a866fe15ebcd8e73d33d7') in 0.021382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001945 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/FBX/Materials/Smoke Grenade DIF.mat
+  artifactKey: Guid(ad39900d8b8e5ac43a0d0e8dbd426e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/FBX/Materials/Smoke Grenade DIF.mat using Guid(ad39900d8b8e5ac43a0d0e8dbd426e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd563ae2074a555283070a4b2ef5b22f6') in 0.010383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002342 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/FBX/Materials/Ak47 Magazine NRM.mat
+  artifactKey: Guid(6a12cf738358309408258643c954bef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/FBX/Materials/Ak47 Magazine NRM.mat using Guid(6a12cf738358309408258643c954bef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b16dd4fd3f9114d9733ba43ca9123bc1') in 0.012635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002188 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/Textures/Ak47 Magazine NRM.png
+  artifactKey: Guid(460b287f6797a21408b76b22ef3e7bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/Textures/Ak47 Magazine NRM.png using Guid(460b287f6797a21408b76b22ef3e7bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1661c8385805041fadabc59cdd47dc62') in 0.012678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/Texture
+  artifactKey: Guid(30f181024b5b81945b19327396d9fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/Texture using Guid(30f181024b5b81945b19327396d9fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b5ffc3af79a7c5463288e792541aeeb9') in 0.000445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003609 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/Textures/UMP-45_Mag_Diffuse.tga
+  artifactKey: Guid(3d2040c0cea72b145967158b1a64f1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/Textures/UMP-45_Mag_Diffuse.tga using Guid(3d2040c0cea72b145967158b1a64f1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '36bafdb690b82e6482a7996c5d513eb9') in 0.008793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001636 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/Textures
+  artifactKey: Guid(3c78e76e09fe33a4abe102211ee72c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/Textures using Guid(3c78e76e09fe33a4abe102211ee72c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1d00204e136642981e230219aa06def4') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001363 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade
+  artifactKey: Guid(bafa1eb05e84be54aafe1009de4a985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade using Guid(bafa1eb05e84be54aafe1009de4a985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e5cd3856fdaa6232dd42bcf4cd5aa106') in 0.000371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001824 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/FBX/Materials/Material_001.mat
+  artifactKey: Guid(4d0f6026188b5e648ba5425f7afc4d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/FBX/Materials/Material_001.mat using Guid(4d0f6026188b5e648ba5425f7afc4d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6be7f7d6ec1f6fc78692b83a065dcafe') in 0.008423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002130 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/FBX/Materials/UMP-45_Mag_Diffuse.mat
+  artifactKey: Guid(16840cfda52056143857fbb613b6c563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/FBX/Materials/UMP-45_Mag_Diffuse.mat using Guid(16840cfda52056143857fbb613b6c563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74255407bb40a98f697da45f655e41a7') in 0.010181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002120 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/FBX/Materials/M4A1_Sopmod_Body.mat
+  artifactKey: Guid(7f5faf930e173324683de25e09ceb003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/FBX/Materials/M4A1_Sopmod_Body.mat using Guid(7f5faf930e173324683de25e09ceb003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2064e62f467daf1eb6a6a93360fcda25') in 0.004691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003107 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/Textures/UMP-45_Body_Diffuse.tga
+  artifactKey: Guid(4b4ef05201a1e8541b2f9c15bc59c9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/Textures/UMP-45_Body_Diffuse.tga using Guid(4b4ef05201a1e8541b2f9c15bc59c9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '488acba7c00d918b4720701ffd254f7c') in 0.009038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002345 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ/Textures/Skorpion_VZ_Magazine.png
+  artifactKey: Guid(a5a1822b3fae47d4e98a0b956efec14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ/Textures/Skorpion_VZ_Magazine.png using Guid(a5a1822b3fae47d4e98a0b956efec14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0774d10a79cdce9d919ae8f88a61684c') in 0.008571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001598 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/OBJ (Extra)
+  artifactKey: Guid(95c9983b1339f8848a4cc72952527c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/OBJ (Extra) using Guid(95c9983b1339f8848a4cc72952527c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '848e06e7552a23614dbf7fa160d1e083') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003084 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/Textures/Ak47 Magazine Diffuse.tga
+  artifactKey: Guid(d435c2b83027c3641a120f709986e7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/Textures/Ak47 Magazine Diffuse.tga using Guid(d435c2b83027c3641a120f709986e7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd117e7a924984085185161bccf07ac98') in 0.009308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002226 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/FBX/Materials/GreyMat.mat
+  artifactKey: Guid(276aabccefda78d4f8022679e5de731d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/FBX/Materials/GreyMat.mat using Guid(276aabccefda78d4f8022679e5de731d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c115d50fc40b0df416d7efca71978570') in 0.008685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002148 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX/Materials/ACOG Diffuse + Specular.mat
+  artifactKey: Guid(c7fed8bb170036941930072ba5061f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX/Materials/ACOG Diffuse + Specular.mat using Guid(c7fed8bb170036941930072ba5061f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '820ae751b2e3fc61ad7d6f8278c81619') in 0.012166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002310 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/OBJ (Extra)/M4A1 Sopmod.obj
+  artifactKey: Guid(e33b26c6a6d37ef4f90adaf0fd9c400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/OBJ (Extra)/M4A1 Sopmod.obj using Guid(e33b26c6a6d37ef4f90adaf0fd9c400b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1e7d59a53b3ccf7e9b340b973ccb741a') in 0.040767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001353 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/Textures/UMP-45_Mag_Normals.png
+  artifactKey: Guid(b73a7ea832693fc498a86719211f3459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/Textures/UMP-45_Mag_Normals.png using Guid(b73a7ea832693fc498a86719211f3459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ea28f6772bc06680aec52f78d0cf843') in 0.008818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002199 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/Textures/Ak47 Body NRM.png
+  artifactKey: Guid(5b4faf9523ce61245a0b97be08f12983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/Textures/Ak47 Body NRM.png using Guid(5b4faf9523ce61245a0b97be08f12983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b7c5aeb38f1b521ea6568f7a069c56bd') in 0.009617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001646 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/Textures
+  artifactKey: Guid(59290c8f8b29a6040909bd40010db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/Textures using Guid(59290c8f8b29a6040909bd40010db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '29aa79fd7ca30d6e1bb29a6982f5bc4f') in 0.000441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001947 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ/FBX/Materials/Skorpion_VS_Mag.mat
+  artifactKey: Guid(59976b5d5b44c3244825a53e25df202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ/FBX/Materials/Skorpion_VS_Mag.mat using Guid(59976b5d5b44c3244825a53e25df202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd4a32f58aae513940aff7a0d21b009fb') in 0.008974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001582 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ
+  artifactKey: Guid(b0845f04fd6040749862467f614d1fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ using Guid(b0845f04fd6040749862467f614d1fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ccb1c51582048abf61ec61e2a2181696') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001781 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Iron Sight Diffuse.mat
+  artifactKey: Guid(66a57e73664f8414da4ecb667a9ad401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Iron Sight Diffuse.mat using Guid(66a57e73664f8414da4ecb667a9ad401) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b87aee99a7a8894d176a787af3c2829e') in 0.011040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002209 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/OBJ (Extra)/ACOG Sight.obj
+  artifactKey: Guid(e8591565e29e7224b9d451ff2186bf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/OBJ (Extra)/ACOG Sight.obj using Guid(e8591565e29e7224b9d451ff2186bf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd6870e9e7e18c8f82006e06182ed42f6') in 0.014283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001619 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/OBJ (Extra)
+  artifactKey: Guid(69be5581e0f0d6c4bbf315dc6abdc7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/OBJ (Extra) using Guid(69be5581e0f0d6c4bbf315dc6abdc7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '273159223ea02a5a02cb5039eb42cb13') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007267 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Body Diffuse.tga
+  artifactKey: Guid(0eb1f99533c68e746816468abdb1392f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Body Diffuse.tga using Guid(0eb1f99533c68e746816468abdb1392f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8fb6c933d9b25a0981673bffdf4aea6a') in 0.009455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001451 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ/Textures
+  artifactKey: Guid(99aa27579f873e94e94e9b3116884c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ/Textures using Guid(99aa27579f873e94e94e9b3116884c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1677bc8456c01d9aeb9b0fdf09c3ff69') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001306 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47
+  artifactKey: Guid(9ca344d43efd5a24d9287d63dbc261ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47 using Guid(9ca344d43efd5a24d9287d63dbc261ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd40daf8c53274560b6b3807a4234c6f5') in 0.000432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001360 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/OBJ (Extra)
+  artifactKey: Guid(1d0829cce455acf4f82081b6322ad2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/OBJ (Extra) using Guid(1d0829cce455acf4f82081b6322ad2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8c6a55e1fb09f55bcf200574862d4927') in 0.000375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001850 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/Textures/UMP-45_Body_Normals.png
+  artifactKey: Guid(027adfc18ab4f0f4c96874fb89eb605d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/Textures/UMP-45_Body_Normals.png using Guid(027adfc18ab4f0f4c96874fb89eb605d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '75a132737c781c67471954345f4c138f') in 0.009118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002646 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1
+  artifactKey: Guid(2eab3cb9ac3e28a4dab868ca6119ff66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1 using Guid(2eab3cb9ac3e28a4dab868ca6119ff66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eec87ec916d23f60cfe5364e80098a9d') in 0.000458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001808 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/FBX/Materials/UMP-45_Body_Diffuse.mat
+  artifactKey: Guid(9f90ae181d66a1a4aa039e9cb975a6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/FBX/Materials/UMP-45_Body_Diffuse.mat using Guid(9f90ae181d66a1a4aa039e9cb975a6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5fc5ef8bc5529dece06fd1c30885932f') in 0.010122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001485 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/FBX
+  artifactKey: Guid(1937ed8e59cedb34f89c4118080986a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/FBX using Guid(1937ed8e59cedb34f89c4118080986a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1668765e37b3c37c71f901f2e023d90d') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001414 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX/Materials
+  artifactKey: Guid(15a35cf60593a4f44a1fabdc20f87c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX/Materials using Guid(15a35cf60593a4f44a1fabdc20f87c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c85265703140b8deaf4f5e39277c025e') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001385 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight
+  artifactKey: Guid(a84ed44969b301d4e83d70ea86c60990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight using Guid(a84ed44969b301d4e83d70ea86c60990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '15e3c3c6d2c7006b17e30afe131e4536') in 0.000395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001603 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ/FBX
+  artifactKey: Guid(f05f42a7c19085e4b94feab4d3e20c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ/FBX using Guid(f05f42a7c19085e4b94feab4d3e20c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0e65cb2a2ff160dabdbaae3914d4b81f') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001270 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/OBJ (Extra)
+  artifactKey: Guid(e0939ff20eeff7a4cbaae761350efa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/OBJ (Extra) using Guid(e0939ff20eeff7a4cbaae761350efa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a7c30a0d0a81476a3cc637d2b7293a9') in 0.000384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002241 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ/Textures/Skorpion_VZ_Normals.png
+  artifactKey: Guid(06edae19d3a367c4194bf52e6e6167f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ/Textures/Skorpion_VZ_Normals.png using Guid(06edae19d3a367c4194bf52e6e6167f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a2e8f347cefce4e32d31fdc5d53f274b') in 0.009256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001531 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/FBX/Materials
+  artifactKey: Guid(d2a665da974117440899e23ec0834d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/FBX/Materials using Guid(d2a665da974117440899e23ec0834d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89ec628bc7ec440508e0fb0ce1a2bf51') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001851 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Body Diffuse.mat
+  artifactKey: Guid(78ab691430c4c3948bafc63e58d78702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Body Diffuse.mat using Guid(78ab691430c4c3948bafc63e58d78702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e528e50b3e289ef04752f05c6860bac6') in 0.010398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002121 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Magazine Diffuse.mat
+  artifactKey: Guid(3603147297ee54a4d8d203e1d6e518e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Magazine Diffuse.mat using Guid(3603147297ee54a4d8d203e1d6e518e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a5f208df23f6c8b41171a3438054a59') in 0.009736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001481 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/OBJ (Extra)
+  artifactKey: Guid(3cd2cfcf126760b47b695107fe245de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/OBJ (Extra) using Guid(3cd2cfcf126760b47b695107fe245de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '41137bb980718db5230f3bb69f22fdcc') in 0.000415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006171 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/Textures/ACOG Normals.png
+  artifactKey: Guid(04860c2ca381d974c9de687160b45fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/Textures/ACOG Normals.png using Guid(04860c2ca381d974c9de687160b45fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7985143e065d24758a467f3ef642f5ca') in 0.008995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002111 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/Textures/Lens.png
+  artifactKey: Guid(03ec29e27af10e44b9843d93c0158136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/Textures/Lens.png using Guid(03ec29e27af10e44b9843d93c0158136) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '513a056d4e8f542054b39fb1e2f835f6') in 0.008702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001943 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/FBX/Smoke Grenade.fbx
+  artifactKey: Guid(4f9635b162a471144969563595ddeed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/FBX/Smoke Grenade.fbx using Guid(4f9635b162a471144969563595ddeed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6a24ac79ace703741b7c911889cdaae5') in 0.012042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002460 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/FBX/UMP-45.fbx
+  artifactKey: Guid(5112e6444b23577429168ceb76476ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/FBX/UMP-45.fbx using Guid(5112e6444b23577429168ceb76476ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b12cb211f57fcd2c8410fc8e2e93a6a') in 0.028227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.002196 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ/FBX/Skorpion VZ.fbx
+  artifactKey: Guid(eb2136a3cdea8f84bb3b2ca2d025a818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ/FBX/Skorpion VZ.fbx using Guid(eb2136a3cdea8f84bb3b2ca2d025a818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b6c4f9c75b3962b21c9f88c5f03e71ca') in 0.020246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.002596 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/FBX/M4A1 Sopmod.fbx
+  artifactKey: Guid(fddeeac0ebed86c4cab4320764b5c227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/FBX/M4A1 Sopmod.fbx using Guid(fddeeac0ebed86c4cab4320764b5c227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0f691ae4f66a32d5c117c7e7b8af69b8') in 0.028582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.001404 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ/FBX/Materials
+  artifactKey: Guid(41f142c7dffd2724c8d24f5dcb8a3f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ/FBX/Materials using Guid(41f142c7dffd2724c8d24f5dcb8a3f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e696b36e99cd06d4e1db0433328582b3') in 0.000451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007058 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/Textures/ACOG Sight.tga
+  artifactKey: Guid(f1adef1910308da4891ffa76d96ce61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/Textures/ACOG Sight.tga using Guid(f1adef1910308da4891ffa76d96ce61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5912c7e51b86852a83555dd09d250aa9') in 0.008910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001370 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45
+  artifactKey: Guid(7887a4d42d42f3046a21b593511dc7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45 using Guid(7887a4d42d42f3046a21b593511dc7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f566738edac6830946b68129abd3ebb7') in 0.000432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001735 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/FBX/Materials/Ak47Body__Untitled.mat
+  artifactKey: Guid(975544c7f0aa2fa488bac6f7cb72bfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/FBX/Materials/Ak47Body__Untitled.mat using Guid(975544c7f0aa2fa488bac6f7cb72bfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ff6cd65e80daaf687d5e346d046d7aa6') in 0.009449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001427 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/FBX/Materials
+  artifactKey: Guid(14e2eadbe64539e488e05de74dccf1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/FBX/Materials using Guid(14e2eadbe64539e488e05de74dccf1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '65156a2c21cad0836f81abd7dd34701d') in 0.000510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002013 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/OBJ (Extra)/UMP-45.obj
+  artifactKey: Guid(4b2c64d20843bab46aaf16bcfc37649a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/OBJ (Extra)/UMP-45.obj using Guid(4b2c64d20843bab46aaf16bcfc37649a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '764146ee86ebc0e786cbe3d79ba5131c') in 0.013411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001986 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX/Materials/Rear_Lens.mat
+  artifactKey: Guid(7289389567321af4f9cb1ad5524134ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX/Materials/Rear_Lens.mat using Guid(7289389567321af4f9cb1ad5524134ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '290765eae086d87448e1642a4b978dd4') in 0.011426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001987 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/FBX
+  artifactKey: Guid(fc4692c2084598b4bb84f84bc62af2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/FBX using Guid(fc4692c2084598b4bb84f84bc62af2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e906fb3a9ac1f30ed4f255791db95442') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001398 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX
+  artifactKey: Guid(cfd84128dacff664b8719d33a96c9463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX using Guid(cfd84128dacff664b8719d33a96c9463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '52fca5533858a704655f770925321158') in 0.000464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004966 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Body NRM.png
+  artifactKey: Guid(860fea0ed45bfc7439afcaba1886fe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Body NRM.png using Guid(860fea0ed45bfc7439afcaba1886fe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e9a1ca8831abfb012e13e22d5cf70400') in 0.010358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002078 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ/OBJ (Extra)/Skorpion VZ.obj
+  artifactKey: Guid(0e9a3174d6fdec34688582dfd4ab5659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ/OBJ (Extra)/Skorpion VZ.obj using Guid(0e9a3174d6fdec34688582dfd4ab5659) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc69d87ca4d3e4ca9ba77e3933ac0236') in 0.012810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001517 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/FBX
+  artifactKey: Guid(a60e1307602a7b646937c5b6bc657643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/FBX using Guid(a60e1307602a7b646937c5b6bc657643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e0fe2f53c751ad25c5d732f307e7137') in 0.000433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001178 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/FBX
+  artifactKey: Guid(9bf1c25823abdb247906088f8d1dbf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/FBX using Guid(9bf1c25823abdb247906088f8d1dbf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '53c498524d8ec6f73a24775991a1c5e6') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002012 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX/ACOG Sight.fbx
+  artifactKey: Guid(24a213c38cd227b488eb502e89c0c69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/FBX/ACOG Sight.fbx using Guid(24a213c38cd227b488eb502e89c0c69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd160890efdc763a9b9f68079c1c38f66') in 0.022466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.006358 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Iron Sight Diffuse.tga
+  artifactKey: Guid(29fe2852d1937c34298a8e0a62120458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Iron Sight Diffuse.tga using Guid(29fe2852d1937c34298a8e0a62120458) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b91dbbf74b9b7ca07cf19b8118bc21a8') in 0.008683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001920 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/OBJ (Extra)/Smoke Grenade.obj
+  artifactKey: Guid(ecfb6127c152e4c47971eb3468c22e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/OBJ (Extra)/Smoke Grenade.obj using Guid(ecfb6127c152e4c47971eb3468c22e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e54e8090997125df88b928e06b6f848a') in 0.012640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002135 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Iron Sight NRM.png
+  artifactKey: Guid(79537cb22490db943869380dad470537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Iron Sight NRM.png using Guid(79537cb22490db943869380dad470537) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'db7a292b1dc98aafd06a99c0ea637284') in 0.008587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001415 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ/OBJ (Extra)
+  artifactKey: Guid(a68f0cc74a4d6384980fd061e7e8ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ/OBJ (Extra) using Guid(a68f0cc74a4d6384980fd061e7e8ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71a458fce5a9919e2562dc767e266200') in 0.000448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001917 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/OBJ (Extra)/Ak-47.obj
+  artifactKey: Guid(e8ef930c672fcce4a88723bcce7a2591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/OBJ (Extra)/Ak-47.obj using Guid(e8ef930c672fcce4a88723bcce7a2591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07de9b5f152496f1f1b8cd7d4469db80') in 0.012659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005292 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/Texture/Smoke Grenade.tga
+  artifactKey: Guid(a5ba6f3d7ce803e479553cabbafd94c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/M18 Smoke Grenade/Texture/Smoke Grenade.tga using Guid(a5ba6f3d7ce803e479553cabbafd94c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '88c88ca98f02ce2204fc5fbdb9c7cac0') in 0.008648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002107 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Skorpion VZ/FBX/Materials/Skorpion_VS.mat
+  artifactKey: Guid(a56b024fb81a99946b3bba4ad8e3bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Skorpion VZ/FBX/Materials/Skorpion_VS.mat using Guid(a56b024fb81a99946b3bba4ad8e3bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7316f47eee72271a41f73d772ab9a6a8') in 0.009531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001945 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/FBX/Materials/No Name.mat
+  artifactKey: Guid(894cbf79128bb455a8e49e4708f67559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/FBX/Materials/No Name.mat using Guid(894cbf79128bb455a8e49e4708f67559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '34d68808bed3e713db4eebcab480a8a8') in 0.007857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006532 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/Textures/Ak47 Body Diffuse.tga
+  artifactKey: Guid(1d8a138703f271640a02a11b88af7d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/Textures/Ak47 Body Diffuse.tga using Guid(1d8a138703f271640a02a11b88af7d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1feef12e1200139fb541b67e13c87672') in 0.008831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001461 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/Ak-47/Textures
+  artifactKey: Guid(db478d1ac3b1d8943a102d3ddd8b62f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/Ak-47/Textures using Guid(db478d1ac3b1d8943a102d3ddd8b62f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ffd718730ee01d05eff1031d965471ff') in 0.000480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001177 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/UMP-45/FBX/Materials
+  artifactKey: Guid(f1388402da0511141a379ad847228691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/UMP-45/FBX/Materials using Guid(f1388402da0511141a379ad847228691) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea57957917bd8b409c8b783777490718') in 0.000406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001345 seconds.
+  path: Assets/04.Models/Modern Weapons Pack/ACOG Sight/Textures
+  artifactKey: Guid(7d805c7f7ba531d4b83bd28875bd2e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Models/Modern Weapons Pack/ACOG Sight/Textures using Guid(7d805c7f7ba531d4b83bd28875bd2e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39bf1a1da74fb2251d2c930625c312a9') in 0.000363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
